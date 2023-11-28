@@ -31,6 +31,18 @@ The figure shows the time series data of the desired (to be predicted) accident 
 
 I optimized the model parameters by experiment but I recommended an optimization method in the 'Dependencies with Recommended Versions' section. Prophet by Facebook is used in this project, it predicts the seasonality and trend of this data perfectly. I tried forecasting using other models too but I couldn't catch the trend of the data. (Especially with the LSTM versions, I may complicated the problem so much that I couldn't solve it.)
 
+January 2021's prediction with the desired accident category and the type:
+
+**Prediction for January 1, 2021: 16.03145794138201**
+
+Checking whether the prediction is good:
+
+**Mean Absolute Error (MAE): 0.09773511561112258** 
+
+**Mean Squared Error (MSE): 0.009552152823519497**
+
+**Root Mean Squared Error (RMSE): 0.09773511561112258**
+
 The following figure represents the forecast using the Prophet:
 
 <img width="369" alt="image" src="https://github.com/iremulu/dps_ai_challenge_2023/assets/78342399/a2e29390-eadb-4fa0-8eda-a17d36e2e58d">
